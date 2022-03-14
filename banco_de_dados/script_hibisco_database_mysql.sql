@@ -8,7 +8,8 @@ create table tb_address_data (
     neighborhood varchar(100),
     city varchar(60),
     uf char(2), 
-    cep varchar(8)
+    cep varchar(8),
+    number int
 );
 
 create table tb_donator (
